@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div className="App">
-      <input type="text" value={count} />
+      <input type="number" value={count} />
       <button onClick={() => setCount(count + 1)}>+</button>
       <button onClick={() => setCount(count - 1)}>-</button>
     </div>
